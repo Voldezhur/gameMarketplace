@@ -3,7 +3,7 @@
 /**
  * Функция __autoload для автоматического подключения классов
  */
-function myAutoLoad($class_name)  // Было __autoload() Выдавало ошибку __autoload() is no longer supported
+function __autoload($class_name)  // Было __autoload() Выдавало ошибку __autoload() is no longer supported
 {
     // Массив папок, в которых могут находиться необходимые классы
     $array_paths = array(
